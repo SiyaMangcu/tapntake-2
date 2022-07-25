@@ -1,0 +1,9 @@
+.submit-form {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .add-product{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+  }

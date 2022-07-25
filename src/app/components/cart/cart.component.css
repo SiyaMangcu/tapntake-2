@@ -1,0 +1,214 @@
+.main{
+    margin-top: 3.5rem;
+}
+input{
+    width: 1.7rem;
+    text-align: center;
+    font-size: larger;
+    border:inherit;
+    
+}
+input:focus{
+    
+    outline: none;
+    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+button{
+    width: 1.2rem;
+    height: 1.2rem;
+    border:inherit;
+    border-radius: .5em;
+    color: #1D3557;
+    text-align: center;
+}
+.checkout{
+  width: 155px;
+  height: 30px;
+  color: white;
+  background-color: #1D3557;
+  line-height: 3px;
+}
+   .bd-placeholder-img {
+       font-size: 1.125rem;
+       text-anchor: middle;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       user-select: none;
+     }
+     
+     @media (min-width: 768px) {
+       .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+       }
+     }
+     
+     .b-example-divider {
+       height: 3rem;
+       background-color: rgba(0, 0, 0, .1);
+       border: solid rgba(0, 0, 0, .15);
+       border-width: 1px 0;
+       box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+     }
+     
+     .b-example-vr {
+       flex-shrink: 0;
+       width: 1.5rem;
+       height: 100vh;
+     }
+     .card {
+      position: relative;
+      border: 1px solid #81AE9D;
+      filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+      border-radius: 10px;
+      height: 200px;
+
+     }
+     .myb{
+       margin-top: 1rem;
+     }
+     
+     .imgText{
+       width: 100%;
+       height: 60px;
+       position: absolute;
+       bottom: 1px;
+       text-align:left;
+       padding-left: 3rem;
+       color: white;
+       background: rgba(97, 113, 146, 0.53);
+       border-radius: 25px;
+       
+     }
+     .imgText span{
+       font-size: 1.rem;
+       line-height: 60px;
+     }
+     .wrapper{
+       display: flex;
+       justify-content: space-around;
+       margin-top: 1rem;
+     }
+     .bi-arrow-right{
+       font-size: 2rem;
+       float: right;
+       color: rgb(255, 255, 255);
+       font-weight:bold;
+       line-height: 60px;
+       padding-right:2rem;
+     }
+     .search { 
+     position: relative; 
+     margin: 0 auto ;
+     text-align: center;
+     }
+     
+     .search .bi-search { 
+     position: absolute;
+     top: 12%;
+     left: 2px;
+     font-size: 1.2rem;
+     background-color: #ffffff;
+     }
+     .form-control{
+     padding-left: 1.5rem;
+     border:inherit;
+   
+     }
+     .btn-group{
+      padding-top: 10px;
+     }
+     .bi-dash-square, .bi-plus-square{
+      margin-left: -.5rem;
+      font-size: 1rem;
+     }
+     
+     .btn-xs{
+      line-height: 3px;
+       outline: none;
+      color: #1D3557; 
+      font-weight: bolder !important;
+     }
+     .btn-xs:active{
+       border: inherit;
+       outline: none;
+     }
+     .btn-xs:hover{
+       border: inherit;
+       outline: none;
+     }
+     .bi-arrow-left-square{
+       font-size: 1.7rem;
+       color: #1D3557;
+     }
+     .bi-trash-fill{
+      margin-top: -5px;
+      margin-left: -.5rem;
+      color: #e25300;
+      font-size: 1rem;
+     }
+     .btn-outline{
+      background-color: inherit;
+      
+      
+     }
+     .navbar {
+   
+       margin: auto;
+       background-color: #FBFFFA;
+     }
+     /* #myCarousel{
+     height: 00px;
+     } */
+     .myb{
+       border-radius: 20px
+     }
+     .pw{
+      padding: 0.5rem;
+      height: 200px;
+     }
+     .pwc{
+       box-sizing: border-box;
+       border-radius: 20px;
+       background-color: #F8F0F0;
+       display: flex;
+       justify-content: center;
+     }
+     .price{
+       margin-top: 15px;
+       font-size: 1.2rem;
+       font-weight: bolder;
+       color: red;
+     }
+     /* .bi-plus-square{
+       font-size: 1.5rem;
+     } */
+
+     .card img{
+      border-radius: 10px;
+    }
+    .card-body{
+      padding-top: 1rem;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 0;
+      
+    }
+   .card-text{
+    font-weight: 400;
+    margin-bottom: 0;
+   }
+   .card-footer{
+    flex-direction: column;
+   }
+   h6{
+    margin-bottom: 0;
+    font-weight: bolder;
+
+   }
